@@ -1,0 +1,18 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+/01-gke/*.tfstates
+/01-gke/*.tfstates.*
+/02-network/*.tfstates
+/02-network/*.tfstates.*
+/03-backup/*.tfstates
+/03-backup/*.tfstates.*
+/04-cloud-storage/*.tfstates
+/04-clouds-torage/*.tfstates.*
+
+.idea
+.idea/*

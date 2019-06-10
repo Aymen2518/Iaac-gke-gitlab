@@ -1,0 +1,6 @@
+helm install gitlab/gitlab --name=gitlab --namespace=gitlab --set global.hosts.domain=gcp.domain.com --set global.hosts.externalIP=35.X.X.X
+ --set certmanager-issuer.email=email@email.fr
+
+
+
+ kubectl exec gitlab-task-runner-76d85cc5d-6894g -it backup-utility -n gitlab
